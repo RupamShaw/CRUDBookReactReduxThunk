@@ -116,5 +116,5 @@ mongoose.connect("mongodb://gameuser:gameUser@ds115768.mlab.com:15768/games", { 
         });
     })
 
-    app.listen(8083, () => console.log('server runs on port 8083'))
+    app.listen(8083, () => console.log('server running on port 8083'))
 })
