@@ -34,7 +34,7 @@ mongoose.connect("mongodb://gameuser:gameUser@ds115768.mlab.com:15768/games", { 
     //     title : "Nemo"
     //   }).save((err, res) => {
     //     if (err) {
-    //       console.log('in err', err);
+    //       console.log('test err', err);
     //       throw err;
     //     } else {
     //       console.log("data created ");
