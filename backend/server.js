@@ -48,7 +48,7 @@ mongoose.connect("mongodb://gameuser:gameUser@ds115768.mlab.com:15768/games", { 
             res.json({ games });
         });
         //    Game.find(function (err, games) {
-        //         console.log(' before sending response json', res.json({ games }))
+        //         console.log(' before sending a response json', res.json({ games }))
         //     })
     })
 
