@@ -43,7 +43,7 @@ mongoose.connect("mongodb://gameuser:gameUser@ds115768.mlab.com:15768/games", { 
     //     console.log('in result', res)
     //   });
     app.get('/api/games', (req, res) => {
-        // console.log('its came in server before find game ')
+        // console.log('its came in server a before find game ')
         db.collection('games').find({}).toArray((err, games) => {
             res.json({ games });
         });
